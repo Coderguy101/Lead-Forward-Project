@@ -1,0 +1,382 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #2E1A47, #522D80);
+    padding: 0 !important;
+    border: 1px solid #2E1A47; 
+}
+
+.navbar-brand img
+{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: left;
+    text-align: left;
+}
+ 
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler-icon
+{
+    color: #fff;
+    outline: none !important;
+}
+
+/*-----This is the banner section-----*/
+#banner
+{
+    background-image: linear-gradient(to right, #2E1A47, #522D80);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.main-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn{
+     width: 45px;
+     margin: 20px;
+}
+
+#banner a
+{
+    color: #fff;
+    text-decoration:none;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+/**Sections part of the website**/
+#services
+{
+    padding: 80px 0;
+}
+
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px; 
+    text-transform: Uppercase;
+}
+
+.statstitle::before
+{
+    content: ' ';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+
+.statstitle::after
+{
+    content: ' ';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.btn-primary
+{
+    box-shadow: none;
+    color: white;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #2E1A47, #522D80);
+}
+
+/*---------about-us section------------*/
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li
+{
+    margin: 10px 0;
+}
+
+#about-us ul
+{
+    margin-left: 20px;
+}
+
+
+
+/*--testimonials SECTION--*/
+#testimonials
+{
+    padding-top: 5%;
+    margin: 100px 0;
+}
+
+.testimonials
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img
+{
+    width:300px;
+    height:250px;
+}
+
+.user-details
+{
+    display:inline-block;
+    font-size: 12px;
+}
+
+/*-----Social Media Section-----*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*--------footer section----------*/
+#footer
+{
+    background-image: linear-gradient(to right, #2E1A47, #522D80);
+    color: #fff;
+}
+
+.footer-img
+{
+    width: 100%;
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .form-control
+{
+    box-shadow: none;
+    border:none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 275px;
+}
+
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px; 
+    background-image: linear-gradient(to right, #2E1A47, #522D80);
+}
+
+hr
+{
+    background-color: white;
+}
+
+.copyright
+{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.learn-image
+{
+    height: 550px;
+    width: 550px;
+}
+
+/*---------Core Classes you will take-------------*/
+#coreclasses
+{
+    margin: 100px 0;
+    padding-top: 5%;
+    
+}
+
+.coreclasses
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.coreclasses img
+{
+    width:300px;
+    height:250px;
+}
+
+.class-description
+{
+    padding: 1%;
+    text-align: center;
+}
+
+/*-------------who should section---------------*/
+#whoshould
+{
+    background: linear-gradient(to top, #f8f9fa, white);
+    padding-top: 5%;
+}
+.whoshould
+{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.whoshould img
+{
+    width:300px;
+    height:250px;
+}
+
+.user-details
+{
+    display:inline-block;
+    font-size: 12px;
+}
+
+
+
+
+/*---------RateMyProfessor------------*/
+#ratemyprofessor
+{
+    background: #fff;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.ratemyprofessor
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#ratemyprofessor ul li
+{
+    margin: 10px 0;
+}
+
+#ratemyprofessor ul
+{
+    margin-left: 20px;
+}
+
+
+/*---------Career Center Section------------*/
+#careercenter
+{
+    background: linear-gradient(to top, #f8f9fa, white);
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.careercenter
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#careercenter ul li
+{
+    margin: 10px 0;
+}
+
+#careercenter ul
+{
+    margin-left: 20px;
+}
+
